@@ -2,30 +2,14 @@
 
 A simple console-based dungeon game written in **C++**.
 
-یک بازی ساده کنسولی که با زبان **C++** ساخته شده است.
-
----
-
-## 📖 About | درباره پروژه
-
-### 🇺🇸 English
+## 📖 About
 
 Dungeon Escape is my first console game developed in C++.
 The player moves around the map using the **WASD** keys, avoids walls, collects a key, and reaches the exit to win.
 
 This project was created to improve my C++ programming skills and learn basic game development concepts.
 
-### 🇮🇷 فارسی
-
-Dungeon Escape اولین بازی کنسولی من است که با زبان C++ ساخته شده است.
-
-بازیکن با کلیدهای **W, A, S, D** در نقشه حرکت می‌کند، از دیوارها عبور نمی‌کند، کلید را برمی‌دارد و در نهایت به خروجی می‌رسد.
-
-هدف این پروژه، یادگیری بهتر زبان C++ و مفاهیم اولیه بازی‌سازی بوده است.
-
----
-
-## ✨ Features | امکانات
+## ✨ Features
 
 * 🎮 WASD Player Movement
 * 🧱 Wall Collision
@@ -34,18 +18,12 @@ Dungeon Escape اولین بازی کنسولی من است که با زبان C
 * 🖥️ Console Rendering
 * ⚡ Lightweight C++ Project
 
----
-
-## 🛠 Requirements | پیش‌نیازها
+## 🛠 Requirements
 
 * C++ Compiler (GCC, G++, MSVC, MinGW)
 * Windows (uses `system("cls")`)
 
----
-
-## ▶️ Build & Run | اجرا
-
-### 🇺🇸 English
+## ▶️ Build & Run
 
 Compile:
 
@@ -65,42 +43,22 @@ Windows (MinGW):
 DungeonEscape.exe
 ```
 
----
-
-### 🇮🇷 فارسی
-
-ابتدا پروژه را کامپایل کنید:
-
-```bash
-g++ DungeonEscape.cpp -o DungeonEscape
-```
-
-سپس اجرا کنید:
-
-```bash
-DungeonEscape.exe
-```
-
-یا:
+or
 
 ```bash
 ./DungeonEscape
 ```
 
----
-
-## 🎮 Controls | کنترل‌ها
+## 🎮 Controls
 
 | Key | Action     |
-| --- | ---------- |
+|-----|------------|
 | W   | Move Up    |
 | A   | Move Left  |
 | S   | Move Down  |
 | D   | Move Right |
 
----
-
-## 📚 What I Learned | چیزهایی که یاد گرفتم
+## 📚 What I Learned
 
 * Variables
 * Conditions
@@ -111,9 +69,7 @@ DungeonEscape.exe
 * Console Rendering
 * Basic Game Logic
 
----
-
-## 🚀 Future Plans | برنامه‌های آینده
+## 🚀 Future Plans
 
 * ❤️ Health System
 * 👾 Enemies
@@ -121,12 +77,8 @@ DungeonEscape.exe
 * 🗺️ Multiple Levels
 * 💾 Save System
 
----
-
 ## 👨‍💻 Author
 
 **AmirAli**
 
 This project was made for learning C++ and game development.
-
-این پروژه با هدف یادگیری C++ و بازی‌سازی توسعه داده شده است.
