@@ -2,6 +2,8 @@
 
 A simple console-based dungeon game written in **C++**.
 
+[English](README.md) | [فارسی](README_fa.md)
+
 ## 📖 About
 
 Dungeon Escape is my first console game developed in C++.

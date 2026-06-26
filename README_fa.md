@@ -2,6 +2,8 @@
 
 A simple console-based dungeon game written in **C++**.
 
+[English](README.md) | [فارسی](README_fa.md)
+
 یک بازی ساده کنسولی که با زبان **C++** ساخته شده است.
 
 ---
