@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+
 bool IsWall(int x , int y)
 {
     return
@@ -10,6 +12,26 @@ bool IsWall(int x , int y)
     (x == 6 && y == 3) ||
     (x == 3 && y == 6) ||
     (x == 6 && y == 6);
+}
+
+void ClearScreen()
+{
+    #ifdef _WIN32 
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
+
+void pause()
+{
+    #ifdef _WIN32
+        system("pause");
+    #else
+        cout<<"\nPress Enter to continue...";
+        cin.ignore();
+        cin.get();
+    #endif
 }
 
 int main()
@@ -24,7 +46,7 @@ int main()
 
     while(Game)
     {
-        system("cls");
+        ClearScreen();
         for(int y = 0; y < 10; y++)
         {
             for(int x = 0; x < 10; x++)
@@ -111,6 +133,6 @@ int main()
         }
     }
     cout << "\nYou WON !!!\n";
-    system("pause");
+    pause();
     return 0;
 }
