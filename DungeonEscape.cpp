@@ -3,8 +3,6 @@
 
 using namespace std;
 
-
-
 bool IsWall(int x , int y)
 {
     return
